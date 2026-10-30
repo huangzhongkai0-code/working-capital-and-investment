@@ -1,0 +1,36 @@
+[
+  {
+    "repo": "working-capital-and-investment",
+    "id": "working-capital",
+    "title": "Cash Conversion & Working Capital",
+    "role": "Treasury · Working capital · Finance operations",
+    "question": "Where could collection and inventory changes release cash?",
+    "method": "Compute FY2025 DSO/DIO/DPO using average FY2024/FY2025 balances and a standardized 365-day convention. DSO uses total sales; DIO and DPO use total cost of sales as a proxy for purchases. Scenario reduces DSO by five days and DIO by three, with DPO unchanged. Translate days into a one-time cash release at FY2025 sales/cost levels.",
+    "result": "The simplified cash conversion cycle is -71.8 days. The stated improvement scenario releases $7.52bn once, not recurring profit.",
+    "limits": "Vendor non-trade receivables are excluded. Total COGS includes services and is an imperfect inventory/purchases denominator. Credit sales and purchase volumes are unavailable. The scenario is a sensitivity, not an operational recommendation.",
+    "metrics": [
+      "DSO 32.1 days",
+      "CCC -71.8 days",
+      "Scenario release $7.52bn"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+    "period": "Apple FY2023–FY2025; scenarios explicitly labelled"
+  },
+  {
+    "repo": "working-capital-and-investment",
+    "id": "profitability-investment",
+    "title": "Profitability & Capital Budgeting",
+    "role": "Commercial finance · Investment appraisal",
+    "question": "How can reported margins inform a clearly bounded investment case?",
+    "method": "Calculate reported Products and Services gross margins. Separately model a hypothetical five-year project with initial spend equal to 1% of FY2025 reported capex, annual after-tax cash inflow equal to 30% of that spend, 10% discount rate, no terminal value and no additional working capital. Compute NPV, bisection IRR and a 3×3 discount-rate/cash-flow sensitivity.",
+    "result": "Reported product gross margin is 36.77% versus 75.41% for services. The hypothetical project NPV is $0.02bn and IRR 15.24%.",
+    "limits": "Gross margin is not contribution margin: public COGS does not separate variable and fixed costs. No SKU break-even is claimed. Project inflows, discount rate and life are assumptions; only the scale anchor comes from real capex. This is not an actual Apple project.",
+    "metrics": [
+      "Products GM 36.77%",
+      "Services GM 75.41%",
+      "Illustrative IRR 15.24%"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+    "period": "Apple FY2023–FY2025; scenarios explicitly labelled"
+  }
+]

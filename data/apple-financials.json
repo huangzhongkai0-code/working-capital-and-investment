@@ -1,0 +1,73 @@
+{
+  "source": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+  "units": "USD millions",
+  "pages": [
+    29,
+    31,
+    33
+  ],
+  "retrieved": "2026-10-30",
+  "rows": [
+    {
+      "year": 2023,
+      "products": 298085,
+      "services": 85200,
+      "productCost": 189282,
+      "serviceCost": 24855,
+      "opex": 54847,
+      "netIncome": 96995,
+      "cfo": 110543,
+      "capex": 10959,
+      "revenue": 383285,
+      "cogs": 214137,
+      "operating": 114301
+    },
+    {
+      "year": 2024,
+      "products": 294866,
+      "services": 96169,
+      "productCost": 185233,
+      "serviceCost": 25119,
+      "opex": 57467,
+      "netIncome": 93736,
+      "cfo": 118254,
+      "capex": 9447,
+      "cash": 29943,
+      "ar": 33410,
+      "inventory": 7286,
+      "ap": 68960,
+      "assets": 364980,
+      "liabilities": 308030,
+      "equity": 56950,
+      "ppe": 45680,
+      "revenue": 391035,
+      "cogs": 210352,
+      "operating": 123216
+    },
+    {
+      "year": 2025,
+      "products": 307003,
+      "services": 109158,
+      "productCost": 194116,
+      "serviceCost": 26844,
+      "opex": 62151,
+      "netIncome": 112010,
+      "cfo": 111482,
+      "capex": 12715,
+      "cash": 35934,
+      "ar": 39777,
+      "inventory": 5718,
+      "ap": 69860,
+      "assets": 359241,
+      "liabilities": 285508,
+      "equity": 73733,
+      "ppe": 49834,
+      "da": 11698,
+      "tax": 20719,
+      "pretax": 132729,
+      "revenue": 416161,
+      "cogs": 220960,
+      "operating": 133050
+    }
+  ]
+}
